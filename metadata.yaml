@@ -1,8 +1,9 @@
 name: Multi-Source Workflow
 author:
-  - name: Wildlife Dynamics
-    organization: Wildlife Dynamics
-description: Local desktop test workflow with independent EarthRanger sources and dependent patrol-type and event-type choices.
-theory: Completed patrol observations are converted into tracks. Events with point geometry are displayed as points. Both maps use the selected time range.
-output_comment: A dashboard containing one patrol track map and one event point map. Empty results appear as empty widgets.
+- name: Wildlife Dynamics
+  organization: Wildlife Dynamics
+description: Events and patrol maps with independent EarthRanger sources, time ranges,
+  type selections, and grouping.
+theory: Standard Events and Patrols workflow tasks produce independent grouped maps.
+output_comment: An events map above a patrol track map, both full width.
 citation: []

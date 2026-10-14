@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "const": "event_category",
+      "title": "Event Type Category"
+    },
+    {
+      "const": "event_type",
+      "title": "Event Type"
+    },
+    {
+      "const": "reported_by_name",
+      "title": "Reported By Name"
+    }
+  ],
+  "patrols": [
+    {
+      "const": "patrol_serial_number",
+      "title": "Patrol Serial Number"
+    },
+    {
+      "const": "patrol_type",
+      "title": "Patrol Type"
+    },
+    {
+      "const": "patrol_subject",
+      "title": "Patrol Subject"
+    }
+  ]
+}

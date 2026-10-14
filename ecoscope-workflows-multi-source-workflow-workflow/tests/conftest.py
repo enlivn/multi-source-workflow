@@ -42,8 +42,11 @@ TEST_CASES_YAML = ARTIFACTS.parent / "test-cases.yaml"
 MATCHSPEC_OVERRIDE = "ecoscope-workflows-multi-source-workflow-workflow"
 RESULTS_ENV_VAR = "ECOSCOPE_WORKFLOWS_RESULTS"
 IO_TASKS_IMPORTABLE_REFERENCES = [
-    "ecoscope.platform.tasks.io.get_patrol_observations",
     "ecoscope.platform.tasks.io.get_events",
+    "ecoscope.platform.tasks.io.get_spatial_features_group",
+    "ecoscope.platform.tasks.io.get_patrols_from_combined_params",
+    "ecoscope.platform.tasks.io.get_patrol_observations_from_patrols_df_and_combined_params",
+    "ecoscope.platform.tasks.io.get_spatial_features_group",
 ]
 
 yaml = ruamel.yaml.YAML(typ="safe")
